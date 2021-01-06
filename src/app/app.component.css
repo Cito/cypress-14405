@@ -1,0 +1,12 @@
+.hint {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s linear infinite;
+  margin: 1em 0;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
