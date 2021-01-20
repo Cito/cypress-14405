@@ -7,7 +7,7 @@ Cypress tests can fail when running them with a minimized test runner window.
 ## Steps to reproduce the problem
 
 1. Install the project with `npm install`.
-2. Run `npm run start` to start the web server and wait until it is running.
+2. Run `npm start` to start the web server and wait until it is running.
 3. Run `npx cypress open` to start Cypress.
 4. Choose "Chrome 87" as test browser.
 5. Run the integration spec.
